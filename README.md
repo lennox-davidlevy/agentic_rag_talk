@@ -1,4 +1,4 @@
-### Agentic RAG Liteboard
+### Agentic RAG Lightboard
 
 A quick refresher on what Retrieval-Augemented Generation is:
 
