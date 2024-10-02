@@ -12,7 +12,7 @@ A user makes a query, which is then sent to our vector database, and the result 
 
 In a typical RAG pipeline, we call the LLM once and use it solely to generate a response. But what if we could leverage the LLM to perform additional tasks, like deciding which vector database to query or determining the type of response to give?
 
-This is where the Agentic RAG pipeline comes into play. In Agentic RAG, the LLM goes beyond just generating a response. It takes on an active role, and can make decisions that will improve both the relevance and accuracy of the retrieved data.
+This is where the Agentic RAG pipeline comes into play. In Agentic RAG, we use the LLM as an ***agent***, and the LLM goes beyond just generating a response. It takes on an active role, and can make decisions that will improve both the relevance and accuracy of the retrieved data.
 
 Let’s revisit our initial RAG pipeline example, but this time, let’s introduce an agent into the mix. In the initial RAG pipeline, we simply retrieved data from a single source and used it to augment the LLM’s output. Now, let’s explore how we can augment that initial process with an Agent and a couple of different sources of data.
 
