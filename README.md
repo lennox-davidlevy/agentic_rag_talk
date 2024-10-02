@@ -30,13 +30,11 @@ So how can we get the LLM to use the vector db that contains the data that will 
 
 With an agent in the pipeline, it can intelligently decide which database to query based on the user's question. The agent isn't making a random guess; it's leveraging the LLM's language understanding capabilities to interpret the query and determine its context.
 
-So, if an employee asks, “What is the company’s policy on remote work during the holidays?” the agent can direct this question to the internal company database.
+So, if an employee asks, “What is the company’s policy on remote work during the holidays?” the agent directs this question to the internal company database.
 
-But if the question is more general, like “What are the industry standards for remote work in tech companies?” the agent will query the industry knowledge database.
+But if the question is more general, like “What are the industry standards for remote work in tech companies?” the agent queries the industry knowledge database.
 
-The agent, powered by an LLM, analyzes the query and, based on its understanding of the content and context, decides which database is most appropriate to use.
-
-So, for example and if trained correctly, if the query contains keywords like 'policy' or 'company,' the agent will route the query to the internal database, but if it sees terms like 'industry standards' or 'best practices,' it will send it to the general industry knowledge database.
+Powered by an LLM and properly trained, the agent analyzes the query and, based on its understanding of the content and context, decides which database to use.
 
 And let's say the query is totally out of left field and has nothing to do with the data in either of our vector databases. We can have a failsafe. So if the query is something like "Who won the world series in 2015?" the agent can route to a canned response saying, "Sorry, I do not have the information you are looking for."
 
