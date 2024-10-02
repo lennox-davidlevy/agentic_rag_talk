@@ -36,12 +36,12 @@ But if the question is more general, like “What are the industry standards for
 
 The agent, powered by an LLM, analyzes the query and, based on its understanding of the content and context, decides which database is most appropriate to use.
 
-So, for example and if trained correctyly, if the query contains keywords like 'policy' or 'company,' will send the query to the internal database, but if it sees terms like 'industry standards' or 'best practices,' it goes to the industry knowledge database.
+So, for example and if trained correctly, if the query contains keywords like 'policy' or 'company,' the agent will route the query to the internal database, but if it sees terms like 'industry standards' or 'best practices,' it will send it to the general industry knowledge database.
 
 And let's say the query is totally out of left field and has nothing to do with the data in either of our vector databases. We can have a failsafe. So if the query is something like "Who won the world series in 2015?" the agent can route to a canned response saying, "Sorry, I do not have the information you are looking for."
 
 ![sorry](./imgs/sorry.png)
 
-This Agentic RAG pipeline can be used for customer support systems. It can be used for Legal tech, where a lawyer can source answers to their questions from internal briefs from one query, and public case law databases from another.
+This Agentic RAG pipeline can be used in customer support systems and legal tech, where a lawyer can source answers to their questions from internal briefs in one query and public case law databases in another.
 
-The Agent can be used in a ton of different ways. Agentic RAG is an evolution in how we can enhance the RAG pipeline, by going beyond simple response generation to more intelligent decision-making. Allowing an agent to choose the best data sources and then even incorporate external information when needed, we can create a pipeline that's more responsive, accurate, and adaptable. This approach opens up so manyh possibilities for applications in customer service, legal tech, healthcare, anything really. As the tech continue to evolve, we will see AI systems that truly understand context and can deliver amazing value to end-users.
+The agent can be utilized in a multitude of ways. Agentic RAG is an evolution in how we enhance the RAG pipeline by moving beyond simple response generation to more intelligent decision-making. By allowing an agent to choose the best data sources and even incorporate external information—like real-time data or third-party services—when needed, we create a pipeline that's more responsive, accurate, and adaptable. This approach opens up so many possibilities for applications in customer service, legal tech, healthcare, and virtually any field. As the technology continues to evolve, we will see AI systems that truly understand context and can deliver amazing value to end-users.
