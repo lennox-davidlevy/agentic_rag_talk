@@ -2,7 +2,7 @@
 
 A quick refresher on what Retrieval-Augemented Generation is:
 
-Retrieval-Augmented Generation (RAG) is a powerful and popular pipeline that enhances responses from a Large Language Model (an LLM) by incorporating relevant data retrieved from a vector database, which is added to the prompt and sent to the LLM for generation. What this does, is allows the LLM to ground its response in concrete and accurate information, which improves the quality and reliability of the response.
+Retrieval-Augmented Generation (RAG) is a powerful and popular pipeline that enhances responses from a Large Language Model (an LLM). It does so by incorporating relevant data retrieved from a vector database adding it as context to the prompt and sending it to the LLM for generation. What this does, is allows the LLM to ground its response in concrete and accurate information, and that improves the quality and reliability of the response.
 
 (I will quickly sketch this out to explain)
 
