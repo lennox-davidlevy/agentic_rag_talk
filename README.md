@@ -2,7 +2,7 @@
 
 A quick refresher on what Retrieval-Augemented Generation is:
 
-Retrieval-Augmented Generation (RAG) is a powerful and popular pipeline that enhances responses from a Large Language Model (an LLM). It does so by incorporating relevant data retrieved from a vector database adding it as context to the prompt and sending it to the LLM for generation. What this does, is allows the LLM to ground its response in concrete and accurate information, and that improves the quality and reliability of the response.
+Retrieval-Augmented Generation (RAG) is a powerful and popular pipeline that enhances responses from a Large Language Model (an LLM). It does this by incorporating relevant data retrieved from a vector database adding it as context to the prompt and sending it to the LLM for generation. What this does, is allows the LLM to ground its response in concrete and accurate information, and that improves the quality and reliability of the response.
 
 (I will quickly sketch this out to explain)
 
@@ -28,7 +28,7 @@ So how can we get the LLM to use the vector db that contains the data that will 
 
 ![agent_flow](./imgs/agent_flow.png)
 
-With an agent in the pipeline, it can intelligently decide which database to query based on the user's question. The agent isn't making a random guess; it's leveraging the LLM's language understanding capabilities to interpret the query and determine its context.
+Lets add an agent into this pipeline. Now it can intelligently decide which database to query based on the user's question. The agent isn't making a random guess; it's leveraging the LLM's language understanding capabilities to interpret the query and determine its context.
 
 So, if an employee asks, “What is the company’s policy on remote work during the holidays?” the agent directs this question to the internal company database.
 
